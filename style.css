@@ -1,0 +1,36 @@
+/* Používáme intuitivní výpočet rozměrů prvků. */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.container {
+  margin-top: 2rem;
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #d48b03;
+  color: white;
+}
+
+input,
+button {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px;
+}
